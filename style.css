@@ -1,50 +1,43 @@
+body{
+    background-color: rgb(226, 226, 170);
+}
 
 h1{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#blocoGeral{
     text-align: center;
-}
+    color: rgb(1, 37, 1);
 
-img{
-    border-radius: 20%
 }
-#minhafoto{
-    padding-left: 32%;
-    float: left;
-}
-#minhadescricao{
-    padding-right: 32%;
-    padding-top: 4%;
-    float: right;
-}
-#topicoDeHabilidade{
-    padding-right: 32%;
-    padding-top: 4%;
-    position: absolute;
-
+#fotoDescricaoHabilidades{
     
-}
-
-div.button botao1 botao2{
-    background-color: rgb(88, 88, 2);
-    color: black;
-    
-
-}
-
-
-body{
-  background-color: rgb(204, 202, 202);
-  color: rgb(88, 88, 2);
-}
-.topicos{
-  font-family: cursive;
-  color: rgb(88, 88, 2);
-}
-
-#descricao{
     display: inline-block;
+    width: 50%;
+
+}
+#foto{
+    border-radius: 20%;
+    
+    
+}
+#descricaoHabilidades{
+    
+
+}
+#descricao{
+    font-family: 'Courier New', Courier, monospace;
+
+}
+#habilidades{
+    font-family: 'Courier New', Courier, monospace;
+}
+#habilidadelista{
+    list-style: none;
 }
 
-.button{
-    padding-left: 50%;
+.poraolado{
+    display: inline-block;
+    width: 30%;
 }
-
